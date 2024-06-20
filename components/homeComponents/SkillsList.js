@@ -2,15 +2,12 @@ import Skill from "./SkillItem";
 
 const skillsArray = [
   {
-    votes: 92,
     name: "Creativity",
   },
   {
-    votes: 92,
     name: "Loyality",
   },
   {
-    votes: 92,
     name: "Motivation",
   },
 ];

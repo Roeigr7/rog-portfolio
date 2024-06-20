@@ -34,7 +34,7 @@ const Home = () => {
 
           <div className="pb-5 mx-auto rate-container bg-white">
             <ShapeAboutMe />
-            <MyTitle variants={colorHeaderVariants} text="Rate Me" />
+            <MyTitle variants={colorHeaderVariants} text="Abilities" />
 
             <Row
               id="rate"

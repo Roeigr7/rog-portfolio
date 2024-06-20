@@ -24,18 +24,18 @@ const Skill = ({ votes, name }) => {
           variants={{
             initial: { width: "0%", zIndex: 1 },
             animate: {
-              width: votes > 100 ? "100%" : `${votes + 5}%`,
+              width: "100%",
               transition: {
                 type: "tween",
                 duration: 1,
               },
             },
           }}
-          className={votes >= 100 ? "hundred" : "animate-Line bg-blue"}
+          className={"animate-Line bg-blue hundred"}
         />
         <div className="line-background bg-lightbright" />
         <p className="line-precent-text text-center text-black p-0 m-0">
-          {votes} {name}
+          {name}
         </p>
       </Col>
     </Row>

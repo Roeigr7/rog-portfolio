@@ -14,7 +14,7 @@ const Hero = () => {
           <Col
             className="d-flex flex-column justify-content-center p-0 m-0"
             lg={5}
-            sm={6}
+            md={6}
           >
             <Row className="p-0 m-0 d-flex justify-content-center ">
               <h1 className="m-0 p-0 pt-5">
@@ -23,7 +23,7 @@ const Hero = () => {
             </Row>
             <IconsList />
           </Col>
-          <Col className=" d-flex justify-content-center" lg={5} sm={6}>
+          <Col className=" d-flex justify-content-center" lg={5} md={6}>
             <ul className="bubbles">
               <li /> <li /> <li /> <li /> <li /> <li /> <li /> <li />
             </ul>

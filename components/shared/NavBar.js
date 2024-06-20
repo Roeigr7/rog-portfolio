@@ -80,7 +80,7 @@ const NavBar = () => {
               duration={500}
               className="nav-link"
             >
-              Rate Me
+              Advanced Abilities
             </Link>
           </Nav>
         </Navbar.Collapse>
